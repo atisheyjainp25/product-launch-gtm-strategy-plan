@@ -39,8 +39,11 @@ conversions; conversion rate = conversions ÷ leads.
 ## 📦 Dataset
 [`data/gtm_launch_data.csv`](data/gtm_launch_data.csv) — **20 fields, 108 records**.
 
-## 📈 Dashboard Features (interactive, single landscape page)
-An **interactive Excel dashboard** built on native **PivotTables, PivotCharts, and Slicers**, laid out on one landscape page that fits a single screenshot:
+## 📊 Dashboard
+
+![Dashboard Screenshot](docs/screenshots/dashboard_screenshot.png)
+
+An **interactive Excel dashboard** built on native **PivotTables, PivotCharts, and Slicers**, laid out on one landscape page:
 - **Slicers (left rail):** **Customer Segment, Marketing Channel, Launch Phase** — click any value and **every chart and KPI re-filters instantly** (all four PivotCharts and the KPI cards share one PivotCache).
 - **KPI band (top):** Total Revenue Forecast, Avg Market Demand, Avg CAC, Avg Conversion Rate, Avg Readiness — live `GETPIVOTDATA` cards that update with the slicers.
 - **PivotCharts (2×2):** Revenue Forecast by Customer Segment, Avg CAC by Marketing Channel, Revenue Forecast by Channel, Avg Market Demand by Category.
